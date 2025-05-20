@@ -4,7 +4,7 @@ This repository contains a simple command-line utility for converting numbers be
 
 ## Supported Languages
 
-* C++ (with pre-compiled executable for Linux)
+* C++
 * Java
 * JavaScript
 * PHP
