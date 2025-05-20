@@ -23,7 +23,7 @@ To run an implementation, ensure the necessary files are in the same folder as d
 1.  **Clone the repository:**
     ```bash
     git clone [https://github.com/Jai0909/Number-Conversion-System.git](https://github.com/Jai0909/Number-Conversion-System.git)
-    cd YourRepoName
+    cd Number-Conversion-System
     ```
 
 2.  **Follow the language-specific instructions below.**
