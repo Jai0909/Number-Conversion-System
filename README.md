@@ -124,7 +124,7 @@ To run an implementation, ensure the necessary files are in the same folder as d
 1.  **Ensure correct file setup in your repository's root:**
     * **`ncs.go`**: At the top, it **must** have `package main`. Its functions (e.g., `val`, `toDeci`, `reVal`, `fromDeci`, `convertBase`) should start with a lowercase letter to be "unexported" (private to the `main` package).
     * **`coderunner.go`**: At the top, it **must** have `package main`. It **must NOT** have an `import` statement for `ncs` or any local package path (e.g., `import "your_module_name/ncs"`). It should call functions from `ncs.go` directly (e.g., `convertBase(s, a, b)`).
-    * **`go.mod`**: This file defines your Go module. If it's not already present, create it in the same directory by running `go mod init your_module_name` (e.g., `go mod init base_converter_app`).
+    * **`go.mod`**: This file defines your Go module. If it's not already present, create it in the same directory by running `go mod init your_module_name` (e.g., `go mod init coderunner`).
 2.  **Run:**
     * Ensure your terminal is in the directory containing `ncs.go`, `coderunner.go`, and `go.mod`.
     * Execute:
