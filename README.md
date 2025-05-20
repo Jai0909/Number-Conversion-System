@@ -34,29 +34,18 @@ To run an implementation, ensure the necessary files are in the same folder as d
 
 #### C++
 
-**Prerequisites:** None, if using the provided executable. A C++ compiler (e.g., g++) is required if you wish to compile it yourself.
+**Prerequisites:** gcc/g++ installed.
 
-1.  **Using the pre-compiled executable (Linux):**
-    * Ensure the executable `coderunner` is in the directory.
-    * Make it executable:
-        ```bash
-        chmod +x coderunner
-        ```
-    * Run:
-        ```bash
-        ./coderunner
-        ```
-2.  **To compile yourself (optional):**
-    * Ensure `ncs.h` and `coderunner.cpp` are in the same directory.
-    * Compile:
-        ```bash
-        g++ coderunner.cpp -o coderunner
-        ```
-    * Run:
-        ```bash
-        ./coderunner
-        ```
-
+1.  **Navigate to the C++ files:** Ensure `ncs.h` and `coderunner.cpp` are in the same directory.
+2.  **Compile:**
+    ```bash
+    g++ coderunner.cpp -o coderunner
+    ```
+3.  **Run:**
+    ```bash
+    ./coderunner
+    ```
+    
 #### Java
 
 **Prerequisites:** Java Development Kit (JDK) installed.
