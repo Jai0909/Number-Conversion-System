@@ -37,24 +37,24 @@ To run an implementation, ensure the necessary files are in the same folder as d
 **Prerequisites:** None, if using the provided executable. A C++ compiler (e.g., g++) is required if you wish to compile it yourself.
 
 1.  **Using the pre-compiled executable (Linux):**
-    * Ensure the executable `base_converter_cpp` (or whatever you name it) is in the directory.
+    * Ensure the executable `coderunner` is in the directory.
     * Make it executable:
         ```bash
-        chmod +x base_converter_cpp
+        chmod +x coderunner
         ```
     * Run:
         ```bash
-        ./base_converter_cpp
+        ./coderunner
         ```
 2.  **To compile yourself (optional):**
     * Ensure `ncs.h` and `coderunner.cpp` are in the same directory.
     * Compile:
         ```bash
-        g++ coderunner.cpp -o base_converter_cpp
+        g++ coderunner.cpp -o coderunner
         ```
     * Run:
         ```bash
-        ./base_converter_cpp
+        ./coderunner
         ```
 
 #### Java
