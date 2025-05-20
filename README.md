@@ -11,6 +11,7 @@ This repository contains a simple command-line utility for converting numbers be
 * Ruby
 * Python 3
 * Go
+* Perl
 
 ## How to Use
 
@@ -121,5 +122,14 @@ To run an implementation, ensure the necessary files are in the same folder as d
         go run.
         ```
     This command will compile and run all `.go` files in the current directory that are part of the `main` package.
+    
+#### Perl
 
----
+**Prerequisites:** Perl interpreter installed.
+
+1.  **Navigate to the Perl files:** Ensure `ncs.pl` and `coderunner.pl` are in the same directory.
+    *Note: `coderunner.pl` uses `require './ncs.pl';`.*
+2.  **Run:**
+    ```bash
+    perl coderunner.pl
+    ```
